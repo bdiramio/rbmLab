@@ -494,7 +494,7 @@ public class KillController {
 Rebuild your app, and redeploy to PCF.
 
 ```sh
- ./mvnw package && cf push cloud-lab -p target/cloud-lab-0.0.1-SNAPSHOT.jar
+ ./mvnw package && cf push cloud-lab -p target/demo-0.0.1-SNAPSHOT.jar
 ```
 
 ### 4.2 - In separate terminal window, TAIL the PCF app logs
