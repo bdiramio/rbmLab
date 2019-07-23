@@ -192,7 +192,7 @@ With Intellij, you can now run the Test by right clicking on it.
 From the commandline you can run them with:
 
 ```sh
-./mvwn test
+./mvnw test
 ```
 
 On Windows machines:
