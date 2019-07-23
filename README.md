@@ -686,6 +686,8 @@ https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-ext
 
 ### 5.1 - Allow injection of the helloWorld message via external sources
 ```java
+import org.springframework.beans.factory.annotation.Value;
+
 @RestController
 public class HelloWorldController {
 
