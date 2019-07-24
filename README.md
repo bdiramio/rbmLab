@@ -980,6 +980,8 @@ public class Person {
 Also create a PersonRepository interface:
 
 ```java
+import org.springframework.data.jpa.repository.JpaRepository;
+
 public interface PersonRepository extends JpaRepository<Person, Long> {}
 
 ```
