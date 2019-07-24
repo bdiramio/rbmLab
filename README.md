@@ -1370,6 +1370,17 @@ cf bind-service cloud-lab custom-rabbitmq
 ```
 
 ### 14.3 - Add the *myQueue* queue to your RabbitMQ instance
+Create RabbitMQ Control GUI users:
+Create a service key:
+```sh
+cf create-service-key SERVICE_INSTANCE SERVICE_KEY -c '{"tags": "administrator"}'
+
+```
+Get the admin user credentials:
+```sh
+cf service-key SERVICE_INSTANCE SERVICE_KEY
+
+```
 
 In the PCF Dev Portal:
 
