@@ -1300,6 +1300,12 @@ The full name of the dependency is : *org.springframework.boot:spring-boot-start
 In a new QueueController java file , add:
 
 ```java
+
+import org.springframework.amqp.core.Message;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
 @RestController
 public class QueueController {
 
@@ -1320,7 +1326,6 @@ public class QueueController {
         return message.toString();
     }
 }
-
 ```
 
 This will send messages to the default the "Default" exchange, with the "myQueue" routing key.
