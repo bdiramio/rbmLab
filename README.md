@@ -617,7 +617,7 @@ Then restart your app:
 cf restage pcf-demo
 ```
 
-### 4.9 - BONUS - Performd a Custom HTTP HealthCheck
+### 4.9 - BONUS - Perform a Custom HTTP HealthCheck
 
 By default PCF will perform a port based healthcheck on your app by attempting to open a connection to the listen port. A custom healthcheck allows you to implement more sophisticated healthcheck logic. You can read more about healthchecks [here](https://docs.cloudfoundry.org/devguide/deploy-apps/healthchecks.html)
 
