@@ -716,6 +716,7 @@ helloworld.message="Hello World - default config file"
 Default should be "Hello World - default config file"
 
 ## 6 - Configuration on PCF
+[SCS Example](https://micro-empathic-hippopotamus.cfapps.io)
 
 Key points:
 * The cloud profile
